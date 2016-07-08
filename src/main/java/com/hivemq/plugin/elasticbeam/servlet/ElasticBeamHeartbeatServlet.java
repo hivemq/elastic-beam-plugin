@@ -31,7 +31,7 @@ public class ElasticBeamHeartbeatServlet extends HttpServlet {
     @Override
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
 
-        log.info("Heartbeat Request from IP {} (port {}) received on listener {}:{} and URI {}",
+        log.debug("Heartbeat Request from IP {} (port {}) received on listener {}:{} and URI {}",
                 req.getRemoteAddr(), req.getRemotePort(), req.getLocalAddr(), req.getLocalPort(), req.getRequestURI());
 
         //We're just returning a 200
