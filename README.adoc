@@ -54,3 +54,12 @@ This plugin exposes custom metrics to HiveMQs holistic metric registry:
 
 | elasticbeam-heartbeat-meter | Meter | A meter that shows the frequency of heartbeat requests
 |===
+
+= Contributing
+
+If you want to contribute to HiveMQ Elastic Beam Plugin, see the link:CONTRIBUTING.md[contribution guidelines].
+
+= License
+
+HiveMQ Elasitc Beam Plugin is licensed under the `APACHE LICENSE, VERSION 2.0`. A copy of the license can be found link:LICENSE.txt[here].
+
